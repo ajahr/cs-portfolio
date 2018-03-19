@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Generative Art and How To</title>
+  <link rel="stylesheet" href="aboutme.css" type="text/css">
+  <link rel="stylesheet" href="navbar.css" type="text/css">
+  <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEGDc0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBg3NAAAAAAAAAAAAAAA
+  AAAAAAAAAAAAAAAAAAAAAAA0NAv/ddCL/ym0p/wAAAAAAAAAAAAAAAAAAAADKbSn/3nQi/w0NAv8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADaeyT/8JYn/++eKP/akSf/AAAAAAAAAADak
+  Sf/754o//CWJ//dfCT/AAAAAAAAAAAAAAAAAAAAAAAAAAAIBgP4+Z0g//6qKf/+sSf/7aAn/wAAAAAAAAAA7aAn//6xJ//+qin/+Z0g/wgGA/gAAAAAAAAAAAAAAAAAAAAAAQIA//+rJP/
+  /vCT//8Eq//21JP8BBg3NAQYNzf21JP//wSr//7wk//+rJP8BAgD/AAAAAAAAAAAAAAAAAAAAAJ1hE///sSf//8ko///KJv//wCr/AQYNzQEGDc3/wCr//8om///JKP//sSf/mFsT/wAAA
+  AAAAAAAAAAAAAAAAAAAAAAA/7sq///iMP//5Dj//+0r/wEGDc0BBg3N/+0r///kOP//4jD//7oq/zFAUAYAAAAAAAAAAAAAAAAAAAAADBII//66N///0Tv//8Qy/9RqIv8XIy7/FyMv/9R
+  qIv//xDL//9E7//66N/8NEwj/AAAAAAAAAAAAAAAAAAAAAOWgLf//xzX//9E3///DL///yzH/AQYNzQEGDc3/yzH//8Mv///RN///xzX/6aAv/wAAAAAAAAAAAAAAAAAAAADaly3//8Ay/
+  //MNP//3T//8tgy/wAAAAAAAAAA8tgy///dP///zDT//8Ax/+OaL/8AAAAAAAAAAAAAAAABBg3N/7M8//+/QP//0kH//+A+/wAAAAAAAAAAAAAAAAAAAAD/4D7//9JB//+/QP//sjv/AQY
+  NzQAAAAAAAAAAAAQC//+qOP//yED//95Q/wEGDc0AAAAAAAAAAAAAAAAAAAAAAQYNzf/eUP//yED//ac4/wEEAv8AAAAAAAMK/4hdIf//tj///bhK/wEGDc0AAAAAAAAAAAAAAAAAAAAAA
+  AAAAAAAAAABBg3N/bZJ//+2P/9+Vx//AAMK/wEGDc0GAwr/Jh8h1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmHyHUBgMK/wEGDc0AAAAAAAAAAAAAAAAAAAA
+  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAPfvAADjxwAA4YcAAMGDAADAAwAAwAMAAOAHAADAAwAAwAMAAMGDAACDwQAAg8EAAAfgAAAf+
+  AAA//8AAA==" rel="icon" type="image/x-icon" />
+  <script src="int2checkpoints/processing.min.js"></script>
+</head>
+
+<div style="background-color:rgba(255,255,255, 0.85)">
+  <h1 class=title> Generative Art and How To </h1>
+  
+      <ul class="navbar">
+        <a href=""> <li> TBD </li> </a>
+        <a href="index.html"> <li> About Me </li> </a>
+        <a href="howto.html"> <li> How To/FAQs </li> </a>
+        <a href="art.html"> <li> Generative Art + How To</li> </a>
+      </ul>
+
+
+<body  background="https://images.freecreatives.com/wp-content/uploads/2016/03/21134615/Blue-Watercolor-Hand-Painted-Butterflies-Pattern.jpg">
+  <canvas id="output-canvas"> </canvas>
+  <div style="background-color:rgba(255,255,255, 0.85)">
+      
+        <script src="art.js"></script>
+      
+      
+      <h2 class=heading>What Did You Create?</h2>
+                <p class=basicinfo>I created a program that uses functions, for loops, conditionals, arrays, and basic shapes to create turtles
+                at the location of the mouse when clicked in a pond setting. This is also known as generative art. Generatve art is art 
+                that has been at least partially created by an autonomous system (in this case, a computer). For my generative art, I chose to 
+                make a pond scene, simply because turtles are one of my favorite animals.</p>
+            <h2 class=heading>How Does the Project Work Overall?</h2>
+                <p class=basicinfo> The lily pads are created with arrays and animated with for loops. The turtles are created by a function 
+                that is called within a mouseClicked function. Then the location of the turtle is stored within an array and looped through a 
+                for loop, constantly redrawing it over the background. Both the lilypads and turtles are created with simple shapes. </p>
+            <h2 class=heading>What are Some Specifics of the Code?</h2>
+                <p class=basicinfo>My generative art uses Javascript. More specifically, it uses conditionals, for loops, functions, and arrays.
+                </p>
+                <h3 class=smallheading>Conditionals</h3>
+                    <div class=container>
+                        <img src="http://tinyurl.com/macaronimumu14" style="width:120px;vertical-align:35px"/>
+                        <p style="width:300px">Conditionals are used in <strong>if</strong> loops to determine whether or not a conditional is 
+                        true and then run a codeblock. If the conditional is true, then it will run; if not, nothing will happen. If you'd like 
+                        to run a different codeblock when the conditional is false, you add an <strong>else</strong> loop at the end. For 
+                        example, on the left, if any random number between 0 and 5 is greater than 4, then 
+                        the program will draw a circle at the top left corner. If the number isn't bigger
+                        than four, then it will draw a circle near the center left of the canvas. </p>
+                        <img src="http://tinyurl.com/macaronimumu15" style="width:105px;vertical-align:35px" />
+                    </div>
+                    <p class=basicinfo>In my project specifically, the conditional in my if statement controls how often a new lilypad is generated.
+                    In fact, it follows the format of the example pretty closely. If a number between 0 and 100 was greater than 99, then it 
+                    would generate a new lilypad.</p>  
+                    
+                <h3 class=smallheading>For Loops</h3>
+                  <img src="http://tinyurl.com/macaronimumu17" style="width:225px;padding-left:87.5px" />
+                  <img src="http://tinyurl.com/macaronimumu16" style="width:100px" />
+                  <p class=basicinfo>For loops are used to constantly loop through a certain codeblock. The <strong>initiator,</strong> or the first part of the 
+                  for loop, starts the for loop and declares and assigns a value to a variable. The second part of the for loop, the 
+                  <strong>conditional</strong>, is used just like the conditionals in if statements: as long as the conditional is true, then the 
+                  codeblock inside the curly brackets will run. Finally, the <strong>increment</strong>, or the last part of the for loop, increases 
+                  or decreases the variable. The example here shows two for loops drawing an animation of circles. The initiator in the first for loop 
+                  sets the variable in charge of the x position at 0. Then, in the conditional, it runs the second for loop as long as i is less than 0.
+                  Finally, it increases by the maximum radius (30) each time. In the second for loop, a similar format is followed. However, in the
+                  codeblock, there is an ellipse method that draws an ellipse using i as x and j as y. It also changes the fill of each circle to a 
+                  different shade of blue. In my generative art's code, for loops were used to redraw the turtle in the same spot over the background: the
+                  initiator, conditional, and increment followed the format that is used by any for loop that loops through an array (initiator is i=0, 
+                the conditional is i&lt;array.length, and the incremement is i++.</p>
+                    
+                <h3 class=smallheading>Functions</h3>
+                  <img src="http://tinyurl.com/macaronimumu19" style="width:150px;padding-left:50px" />
+                  <img src="http://tinyurl.com/macaronimumu18" style="width:300px" />
+                  <p class=basicinfo>Functions are used to run a codeblock when called. Creating a function is simple: you just write <strong>
+                  function</strong> followed by the name you want it to have. The parentheses contain the arguments used to call the functions. 
+                  In this example, a prototype of my turtle generative art, the code block draws a turtle when called. It uses mouseX and 
+                  mouseY as the arguments and is called when the mouse is clicked. This means it draws a turtle wherever the mouse is when it's
+                  clicked.</p>
+                    
+                <h3 class=smallheading>Arrays</h3>
+                    <p class=basicinfo>Arrays are variables that are created like so:</p>
+                    <div style="text-align:center"> <strong>var myArray= []</strong></div>
+                    <p class=basicinfo>Deceptively simple looking, they are used to create and store multiple variables at once. In the context of
+                    my generative art, I used them to generate lily pads and store the locations of my turtles.  Using the <strong>.push</strong>
+                  method, you can create a new object to be stored in the array. In the case of my turtles, I pushed the location of the mouseX 
+                  and mouseY. For my lilypads, I pushed a random number between 400 and 500 for the x-value of my lilypads and any number between
+                  0 and 500 for the y-value of my lilypads. Once you have your variable values, you can use them to draw and call methods with, as I did. </p>
+                
+            <h2 class=heading>What Choices Were Made?</h2>
+                <p class=basicinfo>Basically, I decided what to make and how to make it. I chose to make a program that made turtles
+                when and wherever the mouse was clicked. Then I decided I wanted to go the extra mile and make the background an animation
+                that illustrated lilypads moving down a stream. After this decision, I realized that I would have to use arrays. 
+                </p>
+                <h3 class=smallheading>Why Were These Choices Made?</h3>
+                <p class=basicinfo>Each choice made had the intention of bringing it closer to a program that was visually appealing
+                and centered around turtles (because I really like turtles). When I decided I wanted to have the background be lilypads,
+                I had to choose between having an animated but difficult background, or a stationary but easier background. Eventually, I 
+                decided to go with animated because I wanted to challenge myself. 
+                </p>
+            <h2 class=heading>What is One Thing I Will Remember?</h2>
+                <p class=basicinfo>I'll (hopefully) remember arrays because they took so much work and were so difficult to understand. 
+                They also opened up a lot of possibilities and allow me to animate things now, so they're very useful.
+                </p>
+                
+                <p>&#8291;</p>
+  </div>
+</body>
+</div>
+</html>

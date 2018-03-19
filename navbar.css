@@ -1,0 +1,23 @@
+.navbar a {
+    display: inline-block;
+    color:rgb(56, 62, 66);
+    border: 2px none;
+    text-decoration: none;
+    padding: 5px;
+    font:1.15em garamond;
+
+}
+
+.navbar{
+    background-color: rgb(75, 206, 255);
+    text-align: center;
+    
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar a:hover{
+    background-color: rgb(180, 234, 254);
+}

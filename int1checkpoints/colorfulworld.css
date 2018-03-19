@@ -1,0 +1,29 @@
+body {
+    background-color: cornsilk;
+    text-align: center;
+    border: double sienna;
+    border-radius: 25px;
+    width: 550px;
+    margin: auto;
+}
+
+
+
+h1{
+    font: italic bold 2em garamond;
+    color: saddlebrown;
+}
+
+.favoritething {
+    font: bold 1.5em garamond;
+    color: saddlebrown;
+}
+
+.description {
+    font: 1em garamond;
+    color: sienna;
+}
+
+.link {
+    color: peru;
+}
